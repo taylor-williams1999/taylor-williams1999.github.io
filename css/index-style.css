@@ -68,11 +68,11 @@ li a:hover {
 }
 
 .indexFormContainer {
-	position: center;
+	float: center;
 	background-color: white;
-	max-width: 30%;
-	width: 30%;
-	height: 1500px;
+	max-width: 40%;
+	width: 40%;
+	height: 1000px;
 }
 
 input[type=text] {
