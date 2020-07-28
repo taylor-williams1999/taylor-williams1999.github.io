@@ -70,7 +70,8 @@ li a:hover {
 .indexFormContainer {
 	position: center;
 	background-color: white;
-	max-width: 300px;
+	max-width: 30%;
+	width: 30%;
 	height: 1500px;
 }
 
