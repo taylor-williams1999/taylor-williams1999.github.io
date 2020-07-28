@@ -67,6 +67,13 @@ li a:hover {
     margin: 300px;
 }
 
+.indexFormContainer {
+	position: center;
+	background-color: white;
+	max-width: 300px;
+	height: 1500px;
+}
+
 input[type=text] {
 	background-color : black;
 	color : white;
