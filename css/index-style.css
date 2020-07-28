@@ -7,6 +7,10 @@ body {
 	width: 100%;
 }
 
+iframe{
+    overflow:hidden;
+}
+
 ul {
 	list-style-type : none;
 	margin : 0;
@@ -68,11 +72,11 @@ li a:hover {
 }
 
 .indexFormContainer {
-	margin-left: 40%;
-	margin-right: 40%;
-	background-color: pink;
-	max-width: 35%;
-	width: 35%;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: white;
+	max-width: 40%;
+	width: 40%;
 	height: 1000px;
 }
 
