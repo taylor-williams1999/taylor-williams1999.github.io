@@ -1,0 +1,66 @@
+body {
+	background-color : black;
+	color : white;
+	text-align : center;
+	font-family : Bodoni MT;
+	overflow-x:hidden;
+	width: 100%;
+}
+
+ul {
+	list-style-type : none;
+	margin : 0;
+	padding : 10px;
+	overflow : hidden;
+	background-color : #2A2A2A;
+}
+
+li {
+	display : inline;
+	
+}
+
+li a {
+	font-size : 18px;
+	color : white;
+	padding : 8px 75px;
+	text-align : center;
+	vertical-align : baseline;
+	text-decoration : none;
+
+}
+
+li a:hover {
+	background-color : #555;
+	color : white;
+}
+
+.resumeContainer {
+	width: 100%;
+	height: 750px;
+	background-color: #1A1A1A;
+}
+
+#resumeblurb {
+	background-color: #1A1A1A;
+	font-family: Artifakt Element;
+	line-height: 30px; 
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+
+#resumePic {
+	background-color: #1A1A1A;
+	float: right;
+	max-width: 50%;
+	height: 500px;
+	width: 50%;
+}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	background-color: #080808;
+	font-family: Artifakt Element;
+}
