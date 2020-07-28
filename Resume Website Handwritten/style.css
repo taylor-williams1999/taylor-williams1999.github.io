@@ -1,0 +1,315 @@
+body {
+	background-color : black;
+	color : white;
+	text-align : center;
+	font-family : Bodoni MT;
+	overflow-x:hidden;
+	width: 100%;
+}
+
+ul {
+	list-style-type : none;
+	margin : 0;
+	padding : 10px;
+	overflow : hidden;
+	background-color : #2A2A2A;
+}
+
+li {
+	display : inline;
+	
+}
+
+li a {
+	font-size : 18px;
+	color : white;
+	padding : 8px 75px;
+	text-align : center;
+	vertical-align : baseline;
+	text-decoration : none;
+
+}
+
+li a:hover {
+	background-color : #555;
+	color : white;
+}
+
+.parallax {
+	background-image : url("HelloWorld.png");
+	height : 700px;
+	
+	
+	
+	background-attachment : fixed;
+	background-position : center;
+	background-repeat : no-repeat;
+	background-size : cover;
+}
+
+.nameOnParallax {
+	position : absolute;
+	top: 550px;
+	left: 50%;
+	transform : translate(-50%, 0);
+	font-size : 72px;
+	font-family : Retro Gaming;
+	border : 5px solid #2A2A2A;
+}
+
+.introContainer {
+	height: 500px;
+	width: 100%;
+}
+
+.contactContainer {
+	
+	width: 100%;
+}
+
+.resumeContainer {
+	width: 100%;
+	height: 750px;
+	background-color: #1A1A1A;
+}
+
+.stuffBlurb {
+	background-color: #1A1A1A;
+	height: 300px;
+	width: 100%;
+	padding-top: 200px;
+}
+
+.slenderContainer {
+	width: 100%;
+	height: 750px;
+}
+
+.slenderBlurb {
+	padding-top: 100px;
+	line-height: 30px;
+	font-size: 24px;
+	float: right;
+	background-color: #0A0A0A;
+	height: 650px;
+	width: 66.6%;
+}
+
+.slenderSS {
+	float: left;
+	height: 750px;
+	width: 33.3%;
+	height: 750px;
+	background-image: url("Slender.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.checkersContainer {
+	background-color: #1A1A1A;
+	height: 900px;
+	width: 100%;
+}
+
+.checkersBlurb {
+	float: right;
+	position: left;
+	background-color: #0A0A0A;
+	height: 750px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 46%;
+}
+
+.checkersSS {
+	position: right;
+	float: left;
+	height: 750px;
+	width: 46%;
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-image: url("checkers_ss.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.uwuTranslatorContainer {
+	background-color: #000000;
+	height: 1250px;
+	width: 100%;
+}
+
+.uwuSS {
+	margin-left: 30%;
+	float:left;
+	height: 1000px;
+	position: right;
+	width: 20%;
+	background-image: url("uwu.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.uwuSS2 {
+	margin-right: 30%;
+	float:right;
+	height: 1000px;
+	position: left;
+	width: 20%;
+	background-image: url("uwu2.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.uwuBlurb {
+	margin-top: 1100px;
+	height: 250px;
+	width: 100%;
+	position: center;
+}
+
+.TCPMessengerContainer {
+	height: 800px;
+	width: 100%;
+	position: center;
+}
+
+.TCPSS {
+	height: 400px;
+	width: 100%;
+	background-image: url("messenger.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.TCPBlurb {
+	line-height: 30px;
+	margin-top:400px;
+	height: 400px;
+	width: 100%;
+}
+
+#resumeblurb {
+	background-color: #1A1A1A;
+	font-family: Artifakt Element;
+	line-height: 30px; 
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+
+#resumePic {
+	background-color: #1A1A1A;
+	float: right;
+	max-width: 50%;
+	height: 500px;
+	width: 50%;
+}
+
+#bigPictureMe {
+	background-color: #1A1A1A;
+	float:left;
+	max-width:50%;
+	width: 50%;
+	padding-top: 40px;
+	height: 1000px;
+}
+
+#contactMe {
+	background-color: #1A1A1A;
+	float:right;
+	width:50%;
+	height:1040px;
+	font-family: Artifakt Element;
+}
+
+#aboutMe {
+	float:left;
+	font-family: Modern No. 20;
+	width:50%;
+}
+
+#checkersPreview {
+	float:right;
+	max-width:50%;
+	width:100%;
+	height:100%;
+	background-image : url("Images/checkers_ss.png");
+	background-size : cover;
+	background-position: center;
+}
+
+input[type=text] {
+	background-color : black;
+	color : white;
+	padding: 10px;
+	margin: 20px;
+}
+
+input[name="name"]{
+		width=50px; 
+		font-family: Artifakt Element;
+}
+input[name="email"]{
+		width=50px;
+		font-family: Artifakt Element;
+}
+input[name="subject"]{
+		width=100px;
+		font-family: Artifakt Element;
+}
+
+input[name="Cname"]{
+		border: 2px solid #3F3F3F;
+		width=50px; 
+		font-family: Artifakt Element;
+		background-color: #1A1A1A;
+}
+input[name="Cemail"]{
+		border: 2px solid #3F3F3F;
+		width=50px;
+		font-family: Artifakt Element;
+		background-color: #1A1A1A;
+}
+input[name="Csubject"]{
+		border: 2px solid #3F3F3F;
+		width=100px;
+		font-family: Artifakt Element;
+		background-color: #1A1A1A;
+}
+
+
+input[name="submit"] {
+	padding: 8px 335px;
+}
+
+#message {
+	background-color: black;
+	color: white;
+	font-family: Artifakt Element;
+}
+
+#Cmessage {
+	background-color: #1A1A1A;
+	color: white;
+	font-family: Artifakt Element;
+}
+
+.button {
+	font-family: Artifakt Element;
+}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	background-color: #080808;
+	font-family: Artifakt Element;
+}
+	
